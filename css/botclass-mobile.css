@@ -1,0 +1,92 @@
+@media screen and (max-width: 992px) {
+    .desktop{
+    	display:none;
+    }
+    .mobile{
+    	display: block;
+    }
+
+    /*Tamanhos do desktop, terão largura de 100% no mobile*/
+
+    .w05, .w08 .w10, .w13, .w15, .w20, .w25, .w33, .w50, .w60, .w75,.w80, .w85, .w90, .w100{
+        width: 100%;
+    }
+
+    /*===================================*/
+
+    /*Tamanhos de largura no mobile*/
+
+    .w08-mobile{
+        width:10%;
+    }
+    .w05-mobile{
+        width:10%;
+    }
+    .w10-mobile{
+        width:10%;
+    }
+    .w13-mobile{
+        width: 13%;
+    }
+    .w15-mobile{
+        width: 15%;
+    }
+    .w20-mobile{
+         width: 20%;
+    }
+    .w25-mobile{
+        width: 25%;
+    }
+    .w33-mobile{
+        width: 33%;
+    }
+    .w50-mobile{
+        width: 50%;
+    }
+    .w60-mobile{
+        width:60%;
+    }
+    .w75-mobile{
+        width: 75%;
+    }
+    .w80-mobile{
+        width: 80%;
+    }
+    .w85-mobile{
+        width: 85%;
+    }
+    .w90-mobile{
+        width: 90%;
+    }
+    .w100-mobile{
+        width: 100%;
+    }
+
+    /*===================================*/
+    .box-alert{
+        width: 90%;
+        padding: 4%;
+    }
+    .display-flex-column-mobile{
+        flex-direction: column;
+    }
+    .submit-save{
+       width: 100%;
+    }
+    .input-style-2{
+        margin-right: 0;
+        width: 100%;
+    }
+    body #header-main, body #content-main{
+    	width:100%;
+    	left:0;
+    }
+    body .container-items-pages-main form {
+       background-color: #fafbfe;
+       box-shadow:none;
+    }
+    body .container-items-pages-main form .w100 h3{
+       text-align:center;
+    }
+
+}

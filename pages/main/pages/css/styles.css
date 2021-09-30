@@ -1,0 +1,96 @@
+#box-user-avatar{
+	width: 150px;
+    height: 150px;
+    border: 1px solid #cecece;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    position:relative;
+    border-radius: 50%;
+}
+#box-user-avatar-minor{
+	width: 90%;
+    height: 90%;
+    position:relative;
+    background-color: #cecece;
+    border-radius: 50%;
+}
+#box-user-avatar-minor i{
+    color: #727cf5;
+    font-size: 50px;
+}
+#form-profile textarea{
+    min-height: 200px;
+}
+#form-profile input[type="file"]{
+    padding:3%;
+}
+#form-profile .input-style-1, #form-login .input-style-1{
+    padding: 13px 10px;
+}
+#form-profile .input-style-1{
+    margin-right: 2%;
+}
+#form-login .input-style-1{
+    width: 50%;
+}
+#form-avatar input[type="file"]{
+    padding:3%;
+    background-color: #cecece;
+    width: 100%;
+}
+#form-avatar .box-input-style-2-file{
+    margin-top:20px;
+}
+/*Estilos de Notificações*/
+#box-all-notifications{
+    width: 100%;
+    margin-top: 29px;
+}
+#box-all-notifications ul li{
+    box-shadow: 10px 1px 19px var(--color-box-shadow);
+    padding: 3%;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    background-color:#fff;
+}
+.box-message-type-notifications {
+    width: 60px;
+    height: 60px;
+}
+.box-message-type-message{
+    width: 80px;
+    height: 80px;
+    font-size: 23px;
+}
+#box-all-notifications ul li h1{
+    font-weight:600;
+    font-size:20px;
+}
+#box-all-notifications ul li p{
+    padding: 2%;
+}
+.box-message-type-notifications-options{
+    width: 100px;
+    background-color: #4d4d4d;
+    position: absolute;
+    right: 5%;
+    margin-top:20px;
+    border-radius: 2px;
+    padding: 1%;
+}
+.box-message-type-notifications-options a{
+    color: #fff;
+}
+/*Estilos de Notificações*/
+#delete-image{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 99;
+    color: white;
+    right: 6px;
+    top: 0;
+    border: 3px solid var(--color-box-shadow);
+}

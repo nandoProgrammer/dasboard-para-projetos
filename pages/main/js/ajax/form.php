@@ -1,0 +1,5 @@
+<?php 
+
+$siteName = $_POST[''];
+
+?>

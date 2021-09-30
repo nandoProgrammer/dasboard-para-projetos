@@ -1,0 +1,75 @@
+@media screen and (max-width: 992px) {
+	.nav-items-main {
+       margin-top: 40px;
+    }
+	.container-items-pages-main form > .w100{
+	   padding: 0;
+    }
+    .container-items-pages-main form .w100 > .w50, .container-items-pages-main form .w100 > .w20, .container-items-pages-main form .w100 > .w100, .container-items-pages-main form .w100 > .w100, #form-login .w100,  #form-avatar .w100{
+       padding: 5% 0;
+    }
+    #form-profile textarea{
+        min-height: 100px;
+    }
+	#box-user-avatar{
+		margin:auto;
+        margin-bottom: 20px;
+	}
+	#form-profile span{
+		margin-top:20%;
+		margin-left:5%;
+	}
+	#form-profile p{
+		font-size:12px;
+	}
+    #form-profile input[type="file"], #form-login input[type="text"]{
+       width:100%;
+       padding: 5% 2%;
+    }
+    #form-profile .submit-save, #form-login .submit-save, #form-avatar .submit-save{
+    	margin-top:20px;
+    }
+    #form-avatar span{
+        text-align: center;
+    }
+    #form-avatar .box-input-style-2-file{
+        margin:auto;
+        width: 100%;
+    }
+    #box-all-notifications ul li{
+        padding: 4%;
+    }
+    #box-all-notifications ul li h1{
+        font-size:15px;
+    }
+    #box-all-notifications ul li span{
+        font-size: 10px;
+        top: -10px;
+        position: relative;
+    }
+    #box-all-notifications ul li p {
+        padding: 0 5%; 
+        font-size:10px;
+    }
+    .box-message-type-notifications{
+        width:35px;
+        height:35px;
+    }
+    .box-message-type-notifications-options {
+        width: 50px;
+        right: 17px;
+    }
+    .box-message-type-notifications-options a {
+        font-size:10px;
+    }
+    .box-message-type-message {
+        width: 50px;
+        height: 50px;
+    }
+    #message-title{
+        margin-left: 2%;
+    }
+    #message-content{
+        padding-top: 12%;
+    }
+}

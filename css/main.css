@@ -1,0 +1,18 @@
+:root{
+   --font-primary: 'Poppins', sans-serif;
+}
+*{  
+	box-sizing: border-box;
+	margin:0px;
+    padding:0px;
+    outline:0;
+	font-family: var(--font-primary);
+}
+header{
+	padding: 2% 0;
+}
+header a{
+	color: var(--font-color-primary);
+	text-decoration: none;
+}
+

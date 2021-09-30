@@ -1,0 +1,83 @@
+/*Animação dos box que são aberto quando clica nos ícones do header*/
+@keyframes aside-options-show{
+	0%{
+		right:-19%;
+	}
+	100%{
+		right: 0;
+	}
+}
+.aside-show{
+	right: 0;
+	animation: aside-options-show 0.6s;
+}
+
+@keyframes aside-options-hide{
+	0%{
+		right:0;
+	}
+	100%{
+		right:-19%;
+	}
+}
+.aside-hide{
+	right:-19%;
+	animation: aside-options-hide 0.6s;
+}
+
+@keyframes box-items-header-info{
+	0%{
+		top:80px;
+	}
+	100%{
+		top: 0;
+	}
+}
+
+.box-items-header-info{
+	animation: box-items-header-info 0.6s;
+}
+
+@keyframes box-options-notifications-show{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+.box-options-notifications-show{
+	opacity:1;
+	animation: box-options-notifications-show 0.6s;
+}
+
+@keyframes box-options-notifications-hide{
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}
+.box-options-notifications-hide{
+	opacity:0;
+	animation: box-options-notifications-hide 0.6s;
+}
+/*===================================*/
+
+/*Animação do alerta*/
+@keyframes alert {
+    0% {
+        
+        top:-50px;
+    }
+    100% {
+       
+        top: 60px;
+    }
+}
+.box-alert{
+	animation: alert 0.3s;
+	 top: 60px;
+}
+/*===================================*/

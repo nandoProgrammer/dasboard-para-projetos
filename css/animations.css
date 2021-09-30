@@ -1,0 +1,16 @@
+/*Animação do alerta*/
+@keyframes alert {
+    0% {
+        
+        top:-50px;
+    }
+    100% {
+       
+        top: 20px;
+    }
+}
+.box-alert{
+	animation: alert 0.3s;
+}
+/*===================================*/
+

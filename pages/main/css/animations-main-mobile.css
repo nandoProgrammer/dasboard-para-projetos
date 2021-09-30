@@ -1,0 +1,99 @@
+@media screen and (max-width: 992px) {
+    
+    /*Abrir o menu na lateral no mobile*/
+	@keyframes aside-main-show{
+	  0%{
+		  left:-80%;
+	  }
+	  100%{
+		  left: 0;
+	  }
+    }
+
+    .aside-main-show{
+       animation: aside-main-show 0.6s;   
+    }
+    /*===================================*/
+
+    /*Esconder o menu na lateral no mobile*/
+    @keyframes aside-main-hide{
+	  0%{
+		  left:0;
+	  }
+	  100%{
+		  left: -80%;
+	  }
+    }
+    
+    @keyframes menu-aside-main-hide{
+    	0%{
+           
+           opacity: 1;
+
+    	}
+    	100%{
+           
+           opacity: 0; 
+
+    	}
+    }
+    body .menu-aside-main-hide{
+    	margin-top: 5px;
+    	animation: menu-aside-main-hide 0.6s;  
+    }
+    /*===================================*/
+
+    /*Mostrar o menu de configurações*/
+    @keyframes menu-aside-main-show{
+    	0%{
+           
+           opacity: 0;
+
+    	}
+    	100%{
+           
+           opacity: 1; 
+           
+    	}
+    }
+    .menu-aside-main-show{
+    	margin-top: 5px;
+    	animation: menu-aside-main-show 0.6s;  
+    }
+
+    .aside-main-hide{
+       left: -80%;
+       animation: aside-main-hide 0.6s;   
+    }
+
+
+    @keyframes aside-options-show{
+	  0%{
+		  right:-70%;
+	  }
+	  100%{
+		  right:0;
+	  }
+    }
+    .aside-show{
+	   right:0;
+	   animation: aside-options-show 0.6s;
+    }
+    /*===================================*/
+
+    /*Mostrar o menu de configurações*/
+    @keyframes aside-options-hide{
+	  0%{
+		  right:0;
+	  }
+	  100%{
+		  right:-70%;
+	  }
+    }
+    .aside-hide{
+	   right:-70%;
+	   animation: aside-options-hide 0.6s;
+    }
+    /*===================================*/
+
+}

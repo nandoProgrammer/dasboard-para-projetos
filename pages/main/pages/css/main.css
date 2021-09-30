@@ -1,0 +1,23 @@
+.container-items-pages-main{
+    margin: 0 2%;
+    min-height: 100vh;
+    padding: 4%;
+}
+.container-items-pages-main h1, .container-items-pages-main h3, .container-items-pages-main form label{
+	color: #495057;
+	font-weight:500;
+}
+.container-items-pages-main form{
+	padding: 2%;
+	font-weight: 600;
+	background-color: #fff;
+	box-shadow: 10px 1px 19px var(--color-box-shadow);
+	border-radius: 5px;
+}
+.container-items-pages-main form > .w100{
+	padding: 2%;
+}
+.container-items-pages-main form label{
+    margin-bottom:10px;
+    
+}

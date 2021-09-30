@@ -1,0 +1,81 @@
+:root {
+  --font-color-primary: #fff;
+  --font-color-secondary: #000;
+  --blue-primary: #25CCF7;
+  --blue-secondary: #3B3B98;
+  --blue-terciary: #182C61;
+  --input-color: #f5f5f5;
+}
+
+body {
+  background-image: url('../../../assets/background-login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form-content {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  padding-top: 5%;
+}
+
+form {
+  text-align: center;
+}
+
+.first-icon {
+  position: absolute;
+  top: 35.5%;
+  left: 25px;
+}
+
+.second-icon {
+  position: absolute;
+  top: 39%;
+  left: 25px;
+}
+
+.password-show-hide {
+  position: absolute;
+  padding-top: 23px;
+  padding-left: 20px;
+  right: 32px;
+  top: 2px;
+}
+
+.input-style {
+  display: block;
+  width: 100%;
+  margin: 50px 0;
+  border-radius: 5px;
+  border: 0;
+  padding: 4%;
+}
+
+.input-content {
+  background-color: var(--input-color);
+  padding-left: 9%;
+}
+
+.input-submit {
+  font-size: 20px;
+  background-image: linear-gradient(to left, var(--blue-secondary), var(--blue-primary));
+  color: var(--font-color-primary);
+  font-weight: 500;
+}
+
+.input-submit:hover {
+  cursor: pointer;
+  background-image: none;
+  transition: 1s;
+  background-color: var(--blue-primary);
+}
+
+.input-submit:active {
+  opacity: 0.5;
+}
+
+a {
+  color: var(--font-color-primary);
+}
